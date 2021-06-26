@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <title>Gallery | Still</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Noto+Serif+TC:wght@300;400;700&family=Source+Serif+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+        <style>
+
+        </style>
+        <script type="module">
+            import PhotoSwipeLightbox from '/blog/Photoswipe/photoswipe-lightbox.esm.js';
+
+            const lightbox = new PhotoSwipeLightbox({
+            gallerySelector: '#gallery--simple',
+
+            childSelector: 'a',
+
+            pswpModule: '/blog/Photoswipe/photoswipe.esm.js',
+
+            pswpCSS: '/blog/Photoswipe/photoswipe.css'
+            });
+            lightbox.init();
+        </script>
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <main>
+
+            <div class="header">
+                <a class="link" href="homepage.html">homepage</a>
+                <a class="link" href="blog.html">blog</a>
+                <a class="link" href="gallery.html">gallery</a>
+                <a class="link" href="about.html">about</a>
+            </div>
+            <br><br>
+            <div class="greater-container">
+
+                <div class="pswp-gallery pswp-gallery--single-column photo-container" id="gallery--simple">
+
+                    <a href="/blog/Gallery/Still/IMG_7077.jpg"
+                       data-pswp-width="2400"
+                       data-pswp-height="1600"
+                       data-cropped="true"
+                       target="_blank"
+                       style="display:flex">
+                        <img src="/blog/Gallery/Still/IMG_7077.jpg" style="height: 240px; width: auto ; margin: 10px" alt="" />
+                    </a>
+
+                    <a href="/blog/Gallery/Still/IMG_7079.jpg"
+                       data-pswp-width="2400"
+                       data-pswp-height="1600"
+                       data-cropped="true"
+                       target="_blank"
+                       style="display:flex">
+                        <img src="/blog/Gallery/Still/IMG_7079.jpg" style="height: 240px; width: auto ; margin: 10px" alt="" />
+                    </a>
+
+                    <a href="/blog/Gallery/Still/IMG_7081.jpg"
+                       data-pswp-width="2400"
+                       data-pswp-height="1600"
+                       data-cropped="true"
+                       target="_blank"
+                       style="display:flex">
+                        <img src="/blog/Gallery/Still/IMG_7081.jpg" style="height: 240px; width: auto ; margin: 10px" alt="" />
+                    </a>
+
+                    <a href="/blog/Gallery/Still/DSC_9659.jpg"
+                       data-pswp-width="2400"
+                       data-pswp-height="1600"
+                       data-cropped="true"
+                       target="_blank"
+                       style="display:flex">
+                        <img src="/blog/Gallery/Still/DSC_9659.jpg" style="height: 240px; width: auto ; margin: 10px" alt="" />
+                    </a>
+
+                    <a href="/blog/Gallery/Still/DSC_9243.jpg"
+                       data-pswp-width="2400"
+                       data-pswp-height="1600"
+                       data-cropped="true"
+                       target="_blank"
+                       style="display:flex">
+                        <img src="/blog/Gallery/Still/DSC_9243.jpg" style="height: 240px; width: auto ; margin: 10px" alt="" />
+                    </a>
+
+                    <a href="/blog/Gallery/Still/DSC_9001.jpg"
+                       data-pswp-width="2400"
+                       data-pswp-height="1600"
+                       data-cropped="true"
+                       target="_blank"
+                       style="display:flex">
+                        <img src="/blog/Gallery/Still/DSC_9001.jpg" style="height: 240px; width: auto ; margin: 10px" alt="" />
+                    </a>
+
+
+
+                </div>
+                <div class="post" style="height: 60px"></div>
+
+
+                <div class="footer">
+                    <p style="font-size: 8pt; font-family: 'Lato', sans-serif; font-weight: 300; color: #CCCCCC">Powered by <a style="color: #CCCCCC" href="https://photoswipe.com/">PhotoSwipe</a> | Copyright © 2021 Yi-Sheng Hsu</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
