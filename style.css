@@ -48,7 +48,7 @@ transition: 1s;
 }
 
 #street {
-background-image: url(Street.jpg);
+background-image: url(Street.JPG);
 background-size: cover;
 transition: 0.4s
 }
