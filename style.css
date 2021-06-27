@@ -137,8 +137,8 @@ flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 min-height: 640px;
-padding-left: 50px;
-padding-right: 50px;
+padding-left: 20px;
+padding-right: 20px;
 background-color: white;
 background-size: cover;
 }
@@ -174,8 +174,8 @@ flex-wrap: wrap;
 justify-content: center;
 align-items: top;
 min-height: 640px;
-padding-left: 50px;
-padding-right: 50px;
+padding-left: 20px;
+padding-right: 20px;
 background-image: url(lake.jpg);
 background-size: cover;
 }
