@@ -108,6 +108,17 @@ padding-right: 30px;
 }
 
 /*Blog首頁*/
+.blog-entry-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+min-height: 640px;
+padding-left: 50px;
+padding-right: 50px;
+background-size: cover;
+}
+
 .post {
 margin-top: 15px;
 margin-bottom: 15px;
