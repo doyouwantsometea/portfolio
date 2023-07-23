@@ -20,7 +20,7 @@ font-weight: 300;
 display: flex;
 flex-wrap: wrap;
 height: 720px;
-justify-contents: center;
+justify-content: center;
 background-image: url(homepage.jpg);
 background-size: cover;
 background-position: center;
